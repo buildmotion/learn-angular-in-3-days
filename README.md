@@ -1,2 +1,3 @@
-# learn-angular-in-3-days
+# Learn Angular in 3 Days
+
 A repository for a 3-day course to learn Angular.
