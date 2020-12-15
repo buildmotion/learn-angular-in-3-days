@@ -19,7 +19,7 @@ Daily Schedule:
   - Introduction
   - What is Angular?
     - Framework or Platform
-    - Benefits?
+    - Benefits
     - Conventional
     - Opinionated
     - Release Cadence
