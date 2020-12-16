@@ -1,1 +1,2 @@
-index.md
+getting-started.md
+learning-resources.md
