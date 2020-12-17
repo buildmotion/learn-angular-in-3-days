@@ -1,5 +1,8 @@
 # Learning Resources
 
+- Applications
+  - [Contacts](https://github.com/buildmotion/quicken-loans)
+  - 
 - Angular
   - [Angular.io](Angular.io)
   - [Local Development setup](https://angular.io/guide/setup-local)
@@ -8,6 +11,8 @@
   - [Angular 5: From Theory To Practice: Build the web applications of tomorrow using the new Angular web framework from Google.](https://www.amazon.com/Angular-Practice-applications-tomorrow-framework-ebook/dp/B01N9S0CZN)
   - [Material Design](https://material.angular.io)
   - [Model-View-Presenter with Angular](https://indepth.dev/posts/1070/model-view-presenter-with-angular)
+- Angular Architecture
+  - [Flipboard.com :: Angular Architecture](https://flipboard.com/@mattvaughn/angular-architecture-angular-on-like-donkey-ko-ng-8b0apofoz)
 - Reactive Programming
   - [Comparison of programming paradigms](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
   - [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming)
