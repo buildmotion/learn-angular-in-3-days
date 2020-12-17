@@ -28,4 +28,4 @@ Free book for attendees of the training event. Use the following link/coupon to 
 ### Day 1 :: Session 1
 
 * https://zoom.us/rec/share/PWu7wH5UGL16pFcbeKeR4CXk_vd6QnxWnF-baS80-EB4DtiAn55tq4Qcjqv2DDhD.C9t4DyT4BWk2sUaj
-* Passcode: J1K8Qrx%
+* Passcode: *please get passcode from your team leader*
