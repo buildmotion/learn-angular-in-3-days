@@ -19,6 +19,42 @@ git clone https://github.com/buildmotion/creatr.git
 git clone https://github.com/buildmotion/quicken-loans.git
 ```
 
+
+## MY-ANGULAR WORKSPACE
+
+The `my-angular` workspace (folder) is a default Angular Workspace. This workspace has (3) application and (1) library project. The library project requires a build before it is available to consumers.
+
+Use this command to build the library. The output will be in the `dist` folder. The `paths` mapping in the root-level `tsconfig.json` file contains the mapping *alias* name `logger` that allows consumers to use the logger.
+
+```ts
+ng build logger
+```
+
+A component in an application will need to inject the `logger` into the constructor.
+
+> `import { LoggerService } from 'logger';`
+> `this.loggerService.log('Hello from Matt2');`
+
+```ts
+import { Component } from '@angular/core';
+import { LoggerService } from 'logger';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'my-angular';
+
+  constructor(
+    private loggerService: LoggerService
+  ) {
+    this.loggerService.log('Hello from Matt2');
+  }
+}
+```
+
 ## Angular Architecture Patterns
 
 Free book for attendees of the training event. Use the following link/coupon to get the book for free: [https://leanpub.com/angular-architecture-the-unofficial-guide/c/fgwoWsiylPa1](https://leanpub.com/angular-architecture-the-unofficial-guide/c/fgwoWsiylPa1)
