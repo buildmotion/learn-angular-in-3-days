@@ -77,3 +77,51 @@ Different types of Decorators in Angular.
 2. Injectable
 3. Module
 4. Directive
+
+## Workspace
+
+https://nx.dev/
+
+https://angular.io/guide/rx-library
+
+## Component Communication
+
+### @Input
+
+### @Output
+
+## Reactive Forms
+
+> libs\quicken\micro-apps\contacts-app\src\lib\add\add.component.ts
+
+1. create reactive form using HTML and ReactiveFormsModule
+2. add form controls to `FormGroup`
+3. add validators to `FormControl` items in form
+4. submit form and retrieve values using `get` methods.
+
+```ts
+get emailAddress(): AbstractControl {
+  return this.addContactForm.get('emailAddress') as FormControl;
+}
+```
+
+## Angular.io Reference
+
+- [https://angular.io/guide/reactive-forms](https://angular.io/guide/reactive-forms)
+- [https://angular.io/api/forms/ReactiveFormsModule](https://angular.io/api/forms/ReactiveFormsModule)
+- [https://angular.io/api/forms/FormControl](https://angular.io/api/forms/FormControl)
+
+## Design Systems
+
+- [https://material.angular.io](https://material.angular.io)
+- [https://sparkdesignsystem.com/](https://sparkdesignsystem.com/)
+
+## HttpInterceptor
+
+> https://angular.io/api/common/http/HttpInterceptor
+
+### References:
+
+- [https://medium.com/interoperable/using-httpinterceptor-to-add-a-bearer-token-to-api-calls-with-ng-oidc-client-6b088d680e73](https://medium.com/interoperable/using-httpinterceptor-to-add-a-bearer-token-to-api-calls-with-ng-oidc-client-6b088d680e73)
+- [HTTP interceptors in Angular](https://blog.angulartraining.com/http-interceptors-in-angular-61dcf80b6bdd)
+- [ADD BEARER TOKEN TO HTTPCLIENT REQUESTS](https://www.illucit.com/en/angular/angular-5-httpinterceptor-add-bearer-token-to-httpclient-requests/)
