@@ -21,6 +21,8 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     // this.title = `Thursday AppComponent from Angular`;
+    // TODO: ADD SOME CODE THAT THROWS AND UNHANDLED EXCEPTION
+    // EX: DIVIDE BY 0; WITH NO TRY/CATCH
   }
 
   processNewName(value: string) {
