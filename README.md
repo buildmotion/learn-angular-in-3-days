@@ -12,7 +12,7 @@ ng generate component footer --project=my-app
 
 ## Source Code for Examples
 
-If you have any Git/SSL issues due to corporate policies, you may need to disable them to allow Git to clone a public repository. Use the following command to temporarily disable *SSL* warnings or errors.
+If you have any Git/SSL issues due to corporate policies, you may need to disable them to allow Git to clone a public repository. Use the following command to temporarily disable _SSL_ warnings or errors.
 
 ```ts
 git config --global http.sslVerify false
@@ -26,12 +26,11 @@ git clone https://github.com/buildmotion/creatr.git
 git clone https://github.com/buildmotion/quicken-loans.git
 ```
 
-
 ## MY-ANGULAR WORKSPACE
 
 The `my-angular` workspace (folder) is a default Angular Workspace. This workspace has (3) application and (1) library project. The library project requires a build before it is available to consumers.
 
-Use this command to build the library. The output will be in the `dist` folder. The `paths` mapping in the root-level `tsconfig.json` file contains the mapping *alias* name `logger` that allows consumers to use the logger.
+Use this command to build the library. The output will be in the `dist` folder. The `paths` mapping in the root-level `tsconfig.json` file contains the mapping _alias_ name `logger` that allows consumers to use the logger.
 
 ```ts
 ng build logger
@@ -39,25 +38,22 @@ ng build logger
 
 A component in an application will need to inject the `logger` into the constructor.
 
-> `import { LoggerService } from 'logger';`
-> `this.loggerService.log('Hello from Matt2');`
+> `import { LoggerService } from 'logger';` > `this.loggerService.log('Hello from Matt2');`
 
 ```ts
-import { Component } from '@angular/core';
-import { LoggerService } from 'logger';
+import { Component } from "@angular/core";
+import { LoggerService } from "logger";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.scss"],
 })
 export class AppComponent {
-  title = 'my-angular';
+  title = "my-angular";
 
-  constructor(
-    private loggerService: LoggerService
-  ) {
-    this.loggerService.log('Hello from Matt2');
+  constructor(private loggerService: LoggerService) {
+    this.loggerService.log("Hello from Matt2");
   }
 }
 ```
@@ -70,5 +66,14 @@ Free book for attendees of the training event. Use the following link/coupon to 
 
 ### Day 1 :: Session 1
 
-* https://zoom.us/rec/share/PWu7wH5UGL16pFcbeKeR4CXk_vd6QnxWnF-baS80-EB4DtiAn55tq4Qcjqv2DDhD.C9t4DyT4BWk2sUaj
-* Passcode: *please get passcode from your team leader*
+- https://zoom.us/rec/share/PWu7wH5UGL16pFcbeKeR4CXk_vd6QnxWnF-baS80-EB4DtiAn55tq4Qcjqv2DDhD.C9t4DyT4BWk2sUaj
+- Passcode: _please get passcode from your team leader_
+
+## Decorators
+
+Different types of Decorators in Angular.
+
+1. Component
+2. Injectable
+3. Module
+4. Directive
