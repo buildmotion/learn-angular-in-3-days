@@ -2,6 +2,13 @@
 
 A repository for a 3-day course to learn Angular.
 
+## Angular CLI Commands
+
+```ts
+ng generate application myOtherApp
+ng generate library logger
+ng generate component footer --project=my-app
+```
 
 ## Source Code for Examples
 
